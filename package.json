@@ -1,12 +1,17 @@
 {
-  "name": "npzyk",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "squalid-singularity",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@astrojs/starlight": "^0.21.2",
+    "astro": "^4.3.5",
+    "sharp": "^0.32.5"
+  }
 }
