@@ -1,0 +1,36 @@
+---
+title: 欢迎来到涅槃资源库
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: 恭喜你找到一个宝藏网站!
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: 查看资源列表
+      link: /guides/example/
+      icon: right-arrow
+      variant: primary
+    - text: 联系我们
+      link: src/assets/Contact.png
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 介绍
+
+<CardGrid stagger>
+	<Card title="更新内容" icon="pencil">
+		网站目前更新了影视、音乐、游戏、软件、工具、书籍、教程等资源。
+	</Card>
+	<Card title="文件说明" icon="add-document">
+		目前网站暂时只更新夸克、阿里云盘
+	</Card>
+	<Card title="资源说明" icon="setting">
+		资源来自于互联网，如有版权问题请联系我们删除
+	</Card>
+	<Card title="友情链接" icon="open-book">
+		[AI 书签](https://justmark.notelive.cn/)
+	</Card>
+</CardGrid>
