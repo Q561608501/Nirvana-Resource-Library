@@ -3,8 +3,6 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://<username>.github.io',
-	base: 'Nirvana-Resource-Library',
 	integrations: [
 		starlight({
 			title: '涅槃资源库',
